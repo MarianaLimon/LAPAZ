@@ -6,8 +6,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Inicio | La Paz</title>
-	
-	<!-- core CSS -->
+
+    <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
@@ -17,7 +17,7 @@
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
-    <![endif]-->       
+    <![endif]-->
     <link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
@@ -29,478 +29,507 @@
 
 <body class="homepage">
 
-    <header id="header">
-        <div class="top-bar">
+<header id="header">
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <a href="tel:+5258564285"><i class="fa fa-phone-square" style="color: #1e8820"></i>  58564285</a>
+                </div>
+                <div class="col-sm-6">
+                    <div class="social">
+                        <ul class="social-share">
+                            <li><a href="https://www.facebook.com/www.losreyeslapaz.gob.mx/?fref=ts&__mref=message_bubble"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/edomexlapaz"><i class="fa fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div><!--/.container-->
+    </div><!--/.top-bar-->
+
+    <nav class="navbar navbar-inverse" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Inicio</a></li>
+                    <li><a href="prensa.html">Sala de prensa</a></li>
+                    <li><a href="estructura.html">Estructura</a></li>
+                    <li><a href="acciones.html">Acciones y Programas</a></li>
+                    <li><a href="tramites.html">Tramites y Servicios</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Transparenncia <i class="fa fa-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://www.ipomex.org.mx/ipo/portal/lapaz.web">IPOMEX</a></li>
+                            <li><a href="http://www.conac.gob.mx/">CONAC</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div><!--/.container-->
+    </nav><!--/nav-->
+
+</header><!--/header-->
+
+<section id="main-slider" class="no-margin">
+    <div class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+            <li data-target="#main-slider" data-slide-to="1"></li>
+            <li data-target="#main-slider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+
+            <div class="item active" style="background-image: url(images/slider/lapazbanner1.jpg)">
+                <div class="container">
+                    <div class="row slide-margin">
+                        <div class="col-sm-6">
+                            <div class="carousel-content">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.item-->
+
+            <div class="item" style="background-image: url(images/slider/lapazbanner2.jpg)">
+                <div class="container">
+                    <div class="row slide-margin">
+                        <div class="col-sm-6">
+                            <div class="carousel-content"></div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.item-->
+
+            <div class="item" style="background-image: url(images/slider/lapazbanner3.jpg)">
+                <div class="container">
+                    <div class="row slide-margin">
+                        <div class="col-sm-6">
+                            <div class="carousel-content"></div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.item-->
+        </div><!--/.carousel-inner-->
+    </div><!--/.carousel-->
+    <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+        <i class="fa fa-chevron-left"></i>
+    </a>
+    <a class="next hidden-xs" href="#main-slider" data-slide="next">
+        <i class="fa fa-chevron-right"></i>
+    </a>
+</section><!--/#main-slider-->
+
+<section id="feature" >
+    <div class="container">
+        <div class="center wow fadeInDown">
+            <h2>La Paz Estado de México</h2>
+            <p class="lead">Organización gubernamental · Estado de México</p>
+        </div>
+
+        <div class="row">
+            <div class="feature">
+                <div class="col-md-3 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="feature-wrap">
+                        <a class="fa fa-download" href="documentos_descargables/bando_municipal.pdf" download="Bando Municipal"></a><br>
+                        <h2>Bando Municipal</h2>
+                    </div>
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="feature-wrap">
+                        <a class="fa fa-download" href="documentos_descargables/reglamento.pdf" download="Reglamento"></a><br>
+                        <h2>Reglamento</h2>
+                    </div>
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="feature-wrap">
+                        <a class="fa fa-download" href="documentos_descargables/Plan_de_desarrollo_municipal.pdf" download="Plan de Desarrollo"></a><br>
+                        <h2>Plan de Desarrollo</h2>
+                    </div>
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="feature-wrap">
+                        <a class="fa fa-download" href="documentos_descargables/Relacion_de_bienes.pdf" download="Relacion de Bienes"></a><br>
+                        <h2>Relaci&oacute;n de bienes</h2>
+                    </div>
+                </div><!--/.col-md-3-->
+            </div><!--/.services-->
+        </div><!--/.row-->
+    </div><!--/.container-->
+</section><!--/#feature-->
+
+<section id="recent-works">
+    <div class="container">
+        <div class="center wow fadeInDown">
+            <h2>Siempre Comprometidos</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-3">
+                <div class="recent-work-wrap">
+                    <img class="img-responsive" src="images/compromisos/item1.png" alt="">
+                    <div class="overlay">
+                        <div class="recent-work-inner">
+                            <h3 align="center"><a href="acciones.html#19">Entrega del programa de seguridad alimentaria</a> </h3>
+                            <p align="center">7 de Julio del 2016</p>
+                            <a class="preview" href="images/compromisos/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ampliar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-3">
+                <div class="recent-work-wrap">
+                    <img class="img-responsive" src="images/compromisos/item2.png" alt="">
+                    <div class="overlay">
+                        <div class="recent-work-inner">
+                            <h3 align="center"><a href="acciones.html#18">Mega jornada de salud en La Paz</a></h3>
+                            <p> 1 de Julio del 2016</p>
+                            <a class="preview" href="images/compromisos/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ampliar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-3">
+                <div class="recent-work-wrap">
+                    <img class="img-responsive" src="images/compromisos/item3.png" alt="">
+                    <div class="overlay">
+                        <div class="recent-work-inner">
+                            <h3><a href="acciones.html-pagina2.html#17">Entrega de apoyos a mujeres que logran en grande </a></h3>
+                            <p>10 de Junio del 2016</p>
+                            <a class="preview" href="images/compromisos/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ampliar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-3">
+                <div class="recent-work-wrap">
+                    <img class="img-responsive" src="images/compromisos/item4.png" alt="">
+                    <div class="overlay">
+                        <div class="recent-work-inner">
+                            <h3><a href="acciones.html-pagina2.html#16">1ra Feria Ambiental 2016</a></h3>
+                            <p>8 de Junio del 2016</p>
+                            <a class="preview" href="images/compromisos/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ampliar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-3">
+                <div class="recent-work-wrap">
+                    <img class="img-responsive" src="images/compromisos/item5.png" alt="">
+                    <div class="overlay">
+                        <div class="recent-work-inner">
+                            <h3><a href="acciones.html-pagina3.html#15">Entrega de canasta Mexiquense La Paz</a></h3>
+                            <p>8 de Junio del 2016</p>
+                            <a class="preview" href="images/compromisos/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ampliar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-3">
+                <div class="recent-work-wrap">
+                    <img class="img-responsive" src="images/compromisos/item6.png" alt="">
+                    <div class="overlay">
+                        <div class="recent-work-inner">
+                            <h3><a href="acciones.html-pagina3.html#14">III Sesión abierta de cabildo</a></h3>
+                            <p>8 de Junio del 2016</p>
+                            <a class="preview" href="images/compromisos/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ampliar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-3">
+                <div class="recent-work-wrap">
+                    <img class="img-responsive" src="images/compromisos/item7.png" alt="">
+                    <div class="overlay">
+                        <div class="recent-work-inner">
+                            <h3><a href="acciones.html-pagina4.html#13">Comité de prevención y control del crecimiento urbano en La Paz</a></h3>
+                            <p>2 de Junio del 2016</p>
+                            <a class="preview" href="images/compromisos/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ampliar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-3">
+                <div class="recent-work-wrap">
+                    <img class="img-responsive" src="images/compromisos/item8.png" alt="">
+                    <div class="overlay">
+                        <div class="recent-work-inner">
+                            <h3><a href="acciones.html-pagina4.html#12">Operativo Plan Tres</a></h3>
+                            <p>13 de Mayo del 2016</p>
+                            <a class="preview" href="images/compromisos/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ampliar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="galeria" class="service-item">
+    <div class="container">
+        <div class="center wow fadeInDown">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6">
-                        <a href="tel:+5258564285"><i class="fa fa-phone-square" style="color: #1e8820"></i>  58564285</a>
-                    </div>
-                    <div class="col-sm-6">
-                       <div class="social">
-                            <ul class="social-share">
-                                <li><a href="https://www.facebook.com/www.losreyeslapaz.gob.mx/?fref=ts&__mref=message_bubble"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://twitter.com/edomexlapaz"><i class="fa fa-twitter"></i></a></li>
-                            </ul>
-                       </div>
-                    </div>
-                </div>
-            </div><!--/.container-->
-        </div><!--/.top-bar-->
+                    <div class="col-md-6" style="align-content: center">
+                        <h1> Jornada de Trabajo </h1>
+                        <br><br>
+                        <div id="cp_widget_3169b40f-8745-4d76-9142-e6a387f91274">...</div><script type="text/javascript">
+                        var cpo = []; cpo["_object"] ="cp_widget_3169b40f-8745-4d76-9142-e6a387f91274"; cpo["_fid"] = "AwFAkpd6L5tz";
+                        var _cpmp = _cpmp || []; _cpmp.push(cpo);
+                        (function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+                            cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+                            var c = document.getElementsByTagName("script")[0];
+                            c.parentNode.insertBefore(cp, c); })(); </script>
 
-        <nav class="navbar navbar-inverse" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                        <noscript>Powered by Cincopa
+                            <a href='http://www.cincopa.com/media-platform/podcast-player'>Podcast Hosting</a> for Business solution.<span>Galeria</span>
+                            <span>flash</span><span> 15</span>
+                            <span>cameramake</span>
+                            <span> NIKON CORPORATION</span>
+                            <span>height</span>
+                            <span> 4016</span>
+                            <span>camerasoftware</span>
+                            <span> Adobe Photoshop Ligh</span>
+                            <span>originaldate</span>
+                            <span> 7/28/2016 6:04:45 PM</span>
+                            <span>width</span>
+                            <span> 6016</span>
+                            <span>cameramodel</span><span> NIKON D750</span><span>flash</span><span> 15</span><span>cameramake</span><span> NIKON CORPORATION</span><span>height</span><span> 3417</span><span>camerasoftware</span><span> Adobe Photoshop Ligh</span><span>originaldate</span><span> 7/28/2016 6:05:43 PM</span><span>width</span><span> 5119</span><span>cameramodel</span><span> NIKON D750</span><span>flash</span><span> 15</span><span>cameramake</span><span> NIKON CORPORATION</span><span>height</span><span> 4016</span><span>camerasoftware</span><span> Adobe Photoshop Ligh</span><span>originaldate</span><span> 7/28/2016 6:06:17 PM</span><span>width</span><span> 6016</span><span>cameramodel</span><span> NIKON D750</span><span>flash</span><span> 15</span><span>cameramake</span><span> NIKON CORPORATION</span><span>height</span><span> 4016</span><span>camerasoftware</span><span> Adobe Photoshop Ligh</span><span>originaldate</span><span> 7/28/2016 6:07:07 PM</span><span>width</span><span> 6016</span><span>cameramodel</span><span> NIKON D750</span><span>flash</span><span> 15</span><span>cameramake</span><span> NIKON CORPORATION</span><span>height</span><span> 4016</span><span>camerasoftware</span><span> Adobe Photoshop Ligh</span><span>originaldate</span><span> 7/28/2016 6:18:17 PM</span><span>width</span><span> 6016</span><span>cameramodel</span><span> NIKON D750</span><span>flash</span><span> 16</span><span>cameramake</span><span> NIKON CORPORATION</span><span>height</span><span> 3361</span><span>camerasoftware</span><span> Adobe Photoshop Ligh</span><span>originaldate</span><span> 7/28/2016 4:43:14 PM</span><span>width</span><span> 5042</span><span>cameramodel</span><span> NIKON D7100</span><span>flash</span><span> 16</span><span>cameramake</span><span> NIKON CORPORATION</span><span>height</span><span> 4016</span><span>camerasoftware</span><span> Adobe Photoshop Ligh</span><span>originaldate</span><span> 7/28/2016 5:45:35 PM</span><span>width</span><span> 6016</span><span>cameramodel</span><span> NIKON D750</span><span>flash</span><span> 15</span><span>cameramake</span><span> NIKON CORPORATION</span><span>height</span><span> 3172</span><span>camerasoftware</span><span> Adobe Photoshop Ligh</span><span>originaldate</span><span> 7/28/2016 6:08:07 PM</span><span>width</span><span> 4751</span><span>cameramodel</span><span> NIKON D750</span><span>flash</span><span> 15</span><span>cameramake</span><span> NIKON CORPORATION</span><span>height</span><span> 4016</span><span>camerasoftware</span><span> Adobe Photoshop Ligh</span><span>originaldate</span><span> 7/28/2016 6:04:02 PM</span><span>width</span><span> 6016</span><span>cameramodel</span><span> NIKON D750</span></noscript>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h1> Reunion de Delegados Federales </h1>
+                        <div id="cp_widget_2ccaa552-4107-46c4-8d34-f2fe739364d9">...</div><script type="text/javascript">
+                        var cpo = []; cpo["_object"] ="cp_widget_2ccaa552-4107-46c4-8d34-f2fe739364d9"; cpo["_fid"] = "AMEALpdoNpvE";
+                        var _cpmp = _cpmp || []; _cpmp.push(cpo);
+                        (function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+                            cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+                            var c = document.getElementsByTagName("script")[0];
+                            c.parentNode.insertBefore(cp, c); })(); </script><noscript>Powered by Cincopa <a href='http://www.cincopa.com/media-platform/podcast-player'>Podcast Hosting</a> for Business solution.</noscript>
+                    </div>
                 </div>
-				
-                <div class="collapse navbar-collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Inicio</a></li>
-                        <li><a href="prensa.html">Sala de prensa</a></li>
-                        <li><a href="estructura.html">Estructura</a></li>
-                        <li><a href="acciones.html">Acciones  y Programas</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Transparenncia <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="http://www.ipomex.org.mx/ipo/portal/lapaz.web">IPOMEX</a></li>
-                                <li><a href="http://www.conac.gob.mx/">CONAC</a></li>
-                            </ul>
-                        </li>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="iluminacion">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 center fadeInDown">
+                <center><img class="img-responsive" src="images/iluminacion.jpg" width="400px"/></center><br><br>
+            </div>
+            <div class="col-sm-6">
+                <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="pull-left">
+                        <i class="fa fa-envelope-o"></i>
+                    </div>
+                    <div class="media-body" style="text-align: justify">
+                        <h2>Comunicate con nosotros</h2>
+                        <p>Informanos de fallas en el alumbrado público,
+                            ya sean lamparas apagadas, intermitentes, encendidas de día o cualquier falla en la red
+                            del Municipio y no tardaremos en corregir los desperfectos.</p>
+                    </div>
+                </div>
+                <div class="wow fadeInDown">
+                    <form method="post" action="sendemail.php" role="form">
+                        <div class="row">
+                            <!-- Name Field Starts -->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name" class="sr-only">Nombre: </label>
+                                    <input type="text" class="form-control" name="name" id="name" required="required" placeholder="NOMBRE">
+                                </div>
+                            </div>
+                            <!-- Name Field Ends -->
+                            <!-- Email Field Starts -->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="email" class="sr-only">E-mail: </label>
+                                    <input type="email" class="form-control" name="email" id="email" required="required" placeholder="E-MAIL">
+                                </div>
+                            </div>
+                            <!-- Email Field Ends -->
+                            <!-- Phone No Field Starts -->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="phoneno" class="sr-only">No. telefónico: </label>
+                                    <input type="text" class="form-control" name="phoneno" id="phoneno" required="required" placeholder="NO. TELEFÓNICO">
+                                </div>
+                            </div>
+                            <!-- Phone No Field Ends -->
+                            <!-- Message Field Starts -->
+                            <div class="col-xs-12">
+                                <div class="form-group">
+                                    <label for="message" class="sr-only">Mensaje: </label>
+                                    <textarea class="form-control" name="message" id="message" required="required" placeholder="MENSAJE"></textarea>
+                                </div>
+                            </div>
+                            <!-- Message Field Ends -->
+                            <div class="col-xs-12">
+                                <input type="submit" class="btn btn-lg btn-block btn-primary text-uppercase" value="ENVIAR" onclick="javascript:window.alert('Gracias por comunicarte con nosotros, en breve nos comunicaremos contigo');">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<section id="galeriavideos" class="service-item">
+    <div class="container">
+        <div class="row center">
+            <div class="col-sm-4"><!-- group -->
+                <iframe width="340" height="180" src="https://www.youtube.com/embed/Sz6kIsmHgjY" frameborder="0" allowfullscreen></iframe>
+                <iframe width="340" height="180" src="https://www.youtube.com/embed/Tgkeh6Auyk0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-4"><!-- group -->
+                <iframe width="340" height="180" src="https://www.youtube.com/embed/5bksanvIfvE" frameborder="0" allowfullscreen></iframe>
+                <iframe width="340" height="180" src="https://www.youtube.com/embed/Y71rJ5__05E" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-4"><!-- group -->
+                <iframe width="340" height="180" src="https://www.youtube.com/embed/dWR9S3VraAs" frameborder="0" allowfullscreen></iframe>
+                <iframe width="340" height="180" src="https://www.youtube.com/embed/IVteol37Cy4" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--inicio chat -->
+<div id="anuncio" style="right:100px; bottom:0px; position: fixed; background-color: rgba(204, 204, 211, 0.42); width: 15%">
+    <div align="right" style="margin-bottom:-30px;">
+        <b><a href="javascript:closeit()"><font face="Courier" size="2">CERRAR X </font></a></b>
+    </div>
+    <br />
+    <center><img border="1" src="images/logo.png" alt="" /></center>
+
+    <div id="demo" class="panel-collapse collapse">
+        <ul class="list-group">
+            <li class="list-group-item">Nombre</li>
+            <li class="list-group-item">Mensaje</li>
+        </ul>
+        <div class="panel-footer">Esta sección se encuentra en construcción</div>
+    </div>
+
+    <input type="submit" class="btn btn-lg btn-block btn-primary text-uppercase" value="¡CHAT EN VIVO!" onclick="" href="#demo" data-toggle="collapse">
+    <script type="text/javascript">
+    //<![CDATA[
+    function closeit(){
+        document.getElementById("anuncio").style.visibility = "hidden";
+    }
+    //]]>
+</script>
+</div>
+<div class="clear"></div>
+<!--fin chat -->
+
+<section id="conatcat-info">
+    <div class="container ">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="media contact-info" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="pull-left">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="media-body">
+                        <h2>Comunicate con nosotros</h2>
+                        <p>Estamos siempre dispuestos a atender tus dudas y necesidades.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--/.container-->
+</section><!--/#conatcat-info-->
+
+<section id="bottom">
+    <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+        <div class="row" align="center">
+            <div class="col-sm-4 col-xs-4">
+                <div class="widget">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <br>
+                        <li><a href="tel:+525558564285"><strong>Centro de mando municipal:</strong> 58564285</a></li>
+                        <li><a href="tel:+525558570990"><strong>Bomberos:</strong> 58570990</a></li>
+                        <li><a href="tel:+525558572028"><strong>Protección civil:</strong> 58572028</a></li><br>
+                        <li><a><strong>Correo Institucional Interno:</strong></a></li>
+                        <li><a>contacto@lapazedomex.com.mx</a></li>
                     </ul>
                 </div>
-            </div><!--/.container-->
-        </nav><!--/nav-->
-		
-    </header><!--/header-->
+            </div><!--/.col-md-3-->
 
-    <section id="main-slider" class="no-margin">
-        <div class="carousel slide">
-            <ol class="carousel-indicators">
-                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
-                <li data-target="#main-slider" data-slide-to="1"></li>
-                <li data-target="#main-slider" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-
-                <div class="item active" style="background-image: url(images/slider/lapazbanner1.jpg)">
-                    <div class="container">
-                        <div class="row slide-margin">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/.item-->
-
-                <div class="item" style="background-image: url(images/slider/lapazbanner2.jpg)">
-                    <div class="container">
-                        <div class="row slide-margin">
-                            <div class="col-sm-6">
-                                <div class="carousel-content"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/.item-->
-
-                <div class="item" style="background-image: url(images/slider/lapazbanner3.jpg)">
-                    <div class="container">
-                        <div class="row slide-margin">
-                            <div class="col-sm-6">
-                                <div class="carousel-content"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/.item-->
-            </div><!--/.carousel-inner-->
-        </div><!--/.carousel-->
-        <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
-            <i class="fa fa-chevron-left"></i>
-        </a>
-        <a class="next hidden-xs" href="#main-slider" data-slide="next">
-            <i class="fa fa-chevron-right"></i>
-        </a>
-    </section><!--/#main-slider-->
-
-    <section id="feature" >
-        <div class="container">
-           <div class="center wow fadeInDown">
-                <h2>La Paz Estado de México</h2>
-                <p class="lead">Organización gubernamental · Estado de México</p>
-            </div>
-
-            <div class="row">
-                <div class="feature">
-                    <div class="col-md-3 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <a class="fa fa-download" href="documentos_descargables/bando_municipal.pdf" download="Bando Municipal"></a><br>
-                            <h2>Bando Municipal</h2>
-                        </div>
-                    </div><!--/.col-md-3-->
-
-                    <div class="col-md-3 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <a class="fa fa-download" href="documentos_descargables/reglamento.pdf" download="Reglamento"></a><br>
-                            <h2>Reglamento</h2>
-                        </div>
-                    </div><!--/.col-md-3-->
-
-                    <div class="col-md-3 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <a class="fa fa-download" href="documentos_descargables/Plan_de_desarrollo_municipal.pdf" download="Plan de Desarrollo"></a><br>
-                            <h2>Plan de Desarrollo</h2>
-                        </div>
-                    </div><!--/.col-md-3-->
-
-                    <div class="col-md-3 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="feature-wrap">
-                            <a class="fa fa-download" href="documentos_descargables/Relacion_de_bienes.pdf" download="Relacion de Bienes"></a><br>
-                            <h2>Relaci&oacute;n de bienes</h2>
-                        </div>
-                    </div><!--/.col-md-3-->
-                </div><!--/.services-->
-            </div><!--/.row-->
-        </div><!--/.container-->
-    </section><!--/#feature-->
-
-    <section id="recent-works">
-        <div class="container">
-            <div class="center wow fadeInDown">
-                <h2>Siempre Comprometidos</h2>
-            </div>
-
-            <div class="row">
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/compromisos/item1.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3 align="center"><a href="acciones.html#19">Entrega del programa de seguridad alimentaria</a> </h3>
-                                <p align="center">7 de Julio del 2016</p>
-                                <a class="preview" href="images/compromisos/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ampliar</a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>   
-
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/compromisos/item2.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3 align="center"><a href="acciones.html#18">Mega jornada de salud en La Paz</a></h3>
-                                <p> 1 de Julio del 2016</p>
-                                <a class="preview" href="images/compromisos/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ampliar</a>
-                            </div> 
-                        </div>
-                    </div>
-                </div> 
-
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/compromisos/item3.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3><a href="acciones.html-pagina2.html#17">Entrega de apoyos a mujeres que logran en grande </a></h3>
-                                <p>10 de Junio del 2016</p>
-                                <a class="preview" href="images/compromisos/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ampliar</a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>   
-
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/compromisos/item4.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3><a href="acciones.html-pagina2.html#16">1ra Feria Ambiental 2016</a></h3>
-                                <p>8 de Junio del 2016</p>
-                                <a class="preview" href="images/compromisos/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ampliar</a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>   
-                
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/compromisos/item5.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3><a href="acciones.html-pagina3.html#15">Entrega de canasta Mexiquense La Paz</a></h3>
-                                <p>8 de Junio del 2016</p>
-                                <a class="preview" href="images/compromisos/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ampliar</a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>   
-
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/compromisos/item6.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3><a href="acciones.html-pagina3.html#14">III Sesión abierta de cabildo</a></h3>
-                                <p>8 de Junio del 2016</p>
-                                <a class="preview" href="images/compromisos/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ampliar</a>
-                            </div> 
-                        </div>
-                    </div>
-                </div> 
-
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/compromisos/item7.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3><a href="acciones.html-pagina4.html#13">Comité de prevención y control del crecimiento urbano en La Paz</a></h3>
-                                <p>2 de Junio del 2016</p>
-                                <a class="preview" href="images/compromisos/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ampliar</a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>   
-
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/compromisos/item8.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3><a href="acciones.html-pagina4.html#12">Operativo Plan Tres</a></h3>
-                                <p>13 de Mayo del 2016</p>
-                                <a class="preview" href="images/compromisos/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> Ampliar</a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>   
-            </div>
-        </div>
-    </section>
-
-    <section id="galeria" class="service-item">
-	   <div class="container">
-            <div class="center wow fadeInDown">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6" style="align-content: center">
-                            <h1> Jornada de Trabajo </h1>
-                            <br><br>
-                            <div id="cp_widget_3169b40f-8745-4d76-9142-e6a387f91274">...</div><script type="text/javascript">
-                            var cpo = []; cpo["_object"] ="cp_widget_3169b40f-8745-4d76-9142-e6a387f91274"; cpo["_fid"] = "AwFAkpd6L5tz";
-                            var _cpmp = _cpmp || []; _cpmp.push(cpo);
-                            (function() { var cp = document.createElement("script"); cp.type = "text/javascript";
-                                cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
-                                var c = document.getElementsByTagName("script")[0];
-                                c.parentNode.insertBefore(cp, c); })(); </script>
-
-                            <noscript>Powered by Cincopa
-                                <a href='http://www.cincopa.com/media-platform/podcast-player'>Podcast Hosting</a> for Business solution.<span>Galeria</span>
-                                <span>flash</span><span> 15</span>
-                                <span>cameramake</span>
-                                <span> NIKON CORPORATION</span>
-                                <span>height</span>
-                                <span> 4016</span>
-                                <span>camerasoftware</span>
-                                <span> Adobe Photoshop Ligh</span>
-                                <span>originaldate</span>
-                                <span> 7/28/2016 6:04:45 PM</span>
-                                <span>width</span>
-                                <span> 6016</span>
-                                <span>cameramodel</span><span> NIKON D750</span><span>flash</span><span> 15</span><span>cameramake</span><span> NIKON CORPORATION</span><span>height</span><span> 3417</span><span>camerasoftware</span><span> Adobe Photoshop Ligh</span><span>originaldate</span><span> 7/28/2016 6:05:43 PM</span><span>width</span><span> 5119</span><span>cameramodel</span><span> NIKON D750</span><span>flash</span><span> 15</span><span>cameramake</span><span> NIKON CORPORATION</span><span>height</span><span> 4016</span><span>camerasoftware</span><span> Adobe Photoshop Ligh</span><span>originaldate</span><span> 7/28/2016 6:06:17 PM</span><span>width</span><span> 6016</span><span>cameramodel</span><span> NIKON D750</span><span>flash</span><span> 15</span><span>cameramake</span><span> NIKON CORPORATION</span><span>height</span><span> 4016</span><span>camerasoftware</span><span> Adobe Photoshop Ligh</span><span>originaldate</span><span> 7/28/2016 6:07:07 PM</span><span>width</span><span> 6016</span><span>cameramodel</span><span> NIKON D750</span><span>flash</span><span> 15</span><span>cameramake</span><span> NIKON CORPORATION</span><span>height</span><span> 4016</span><span>camerasoftware</span><span> Adobe Photoshop Ligh</span><span>originaldate</span><span> 7/28/2016 6:18:17 PM</span><span>width</span><span> 6016</span><span>cameramodel</span><span> NIKON D750</span><span>flash</span><span> 16</span><span>cameramake</span><span> NIKON CORPORATION</span><span>height</span><span> 3361</span><span>camerasoftware</span><span> Adobe Photoshop Ligh</span><span>originaldate</span><span> 7/28/2016 4:43:14 PM</span><span>width</span><span> 5042</span><span>cameramodel</span><span> NIKON D7100</span><span>flash</span><span> 16</span><span>cameramake</span><span> NIKON CORPORATION</span><span>height</span><span> 4016</span><span>camerasoftware</span><span> Adobe Photoshop Ligh</span><span>originaldate</span><span> 7/28/2016 5:45:35 PM</span><span>width</span><span> 6016</span><span>cameramodel</span><span> NIKON D750</span><span>flash</span><span> 15</span><span>cameramake</span><span> NIKON CORPORATION</span><span>height</span><span> 3172</span><span>camerasoftware</span><span> Adobe Photoshop Ligh</span><span>originaldate</span><span> 7/28/2016 6:08:07 PM</span><span>width</span><span> 4751</span><span>cameramodel</span><span> NIKON D750</span><span>flash</span><span> 15</span><span>cameramake</span><span> NIKON CORPORATION</span><span>height</span><span> 4016</span><span>camerasoftware</span><span> Adobe Photoshop Ligh</span><span>originaldate</span><span> 7/28/2016 6:04:02 PM</span><span>width</span><span> 6016</span><span>cameramodel</span><span> NIKON D750</span></noscript>
-                        </div>
-
-                        <div class="col-md-6">
-                            <h1> Reunion de Delegados Federales </h1>
-                            <div id="cp_widget_2ccaa552-4107-46c4-8d34-f2fe739364d9">...</div><script type="text/javascript">
-                            var cpo = []; cpo["_object"] ="cp_widget_2ccaa552-4107-46c4-8d34-f2fe739364d9"; cpo["_fid"] = "AMEALpdoNpvE";
-                            var _cpmp = _cpmp || []; _cpmp.push(cpo);
-                            (function() { var cp = document.createElement("script"); cp.type = "text/javascript";
-                                cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
-                                var c = document.getElementsByTagName("script")[0];
-                                c.parentNode.insertBefore(cp, c); })(); </script><noscript>Powered by Cincopa <a href='http://www.cincopa.com/media-platform/podcast-player'>Podcast Hosting</a> for Business solution.</noscript>
-                        </div>
-                    </div>
+            <div class="col-sm-4 col-xs-4">
+                <div class="widget">
+                    <br><br><br><br>
+                    <img src="images/logolapaz.png">
                 </div>
-            </div>
-        </div>
-    </section>
+            </div><!--/.col-md-3-->
 
-    <section id="iluminacion">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 center fadeInDown">
-                    <center><img class="img-responsive" src="images/iluminacion.jpg" width="400px"/></center><br><br>
-                </div>
-                <div class="col-sm-6">
-                    <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="pull-left">
-                            <i class="fa fa-envelope-o"></i>
-                        </div>
-                        <div class="media-body" style="text-align: justify">
-                            <h2>Comunicate con nosotros</h2>
-                            <p>Informanos de fallas en el alumbrado público,
-                                ya sean lamparas apagadas, intermitentes, encendidas de día o cualquier falla en la red
-                                del Municipio y no tardaremos en corregir los desperfectos.</p>
-                        </div>
-                    </div>
-                    <div class="wow fadeInDown">
-                        <form method="post" action="sendemail.php" role="form">
-                            <div class="row">
-                                <!-- Name Field Starts -->
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="name" class="sr-only">Nombre: </label>
-                                        <input type="text" class="form-control" name="name" id="name" required="required" placeholder="NOMBRE">
-                                    </div>
-                                </div>
-                                <!-- Name Field Ends -->
-                                <!-- Email Field Starts -->
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="email" class="sr-only">E-mail: </label>
-                                        <input type="email" class="form-control" name="email" id="email" required="required" placeholder="E-MAIL">
-                                    </div>
-                                </div>
-                                <!-- Email Field Ends -->
-                                <!-- Phone No Field Starts -->
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="phoneno" class="sr-only">No. telefónico: </label>
-                                        <input type="text" class="form-control" name="phoneno" id="phoneno" required="required" placeholder="NO. TELEFÓNICO">
-                                    </div>
-                                </div>
-                                <!-- Phone No Field Ends -->
-                                <!-- Message Field Starts -->
-                                <div class="col-xs-12">
-                                    <div class="form-group">
-                                        <label for="message" class="sr-only">Mensaje: </label>
-                                        <textarea class="form-control" name="message" id="message" required="required" placeholder="MENSAJE"></textarea>
-                                    </div>
-                                </div>
-                                <!-- Message Field Ends -->
-                                <div class="col-xs-12">
-                                    <input type="submit" class="btn btn-lg btn-block btn-primary text-uppercase" value="ENVIAR" onclick="javascript:window.alert('Gracias por comunicarte con nosotros, en breve nos comunicaremos contigo');">
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-
-                </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="galeriavideos" class="service-item">
-        <div class="container">
-            <div class="row center">
-                <div class="col-sm-4"><!-- group -->
-                    <iframe width="340" height="180" src="https://www.youtube.com/embed/Sz6kIsmHgjY" frameborder="0" allowfullscreen></iframe>
-                    <iframe width="340" height="180" src="https://www.youtube.com/embed/Tgkeh6Auyk0" frameborder="0" allowfullscreen></iframe>
-                </div>
-                <div class="col-sm-4"><!-- group -->
-                    <iframe width="340" height="180" src="https://www.youtube.com/embed/5bksanvIfvE" frameborder="0" allowfullscreen></iframe>
-                    <iframe width="340" height="180" src="https://www.youtube.com/embed/Y71rJ5__05E" frameborder="0" allowfullscreen></iframe>
-                </div>
-                <div class="col-sm-4"><!-- group -->
-                    <iframe width="340" height="180" src="https://www.youtube.com/embed/dWR9S3VraAs" frameborder="0" allowfullscreen></iframe>
-                    <iframe width="340" height="180" src="https://www.youtube.com/embed/IVteol37Cy4" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="conatcat-info">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8">
-                    <div class="media contact-info" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="pull-left">
-                            <i class="fa fa-phone"></i>
-                        </div>
-                        <div class="media-body">
-                            <h2>Comunicate con nosotros</h2>
-                            <p>Estamos siempre dispuestos a atender tus dudas y necesidades.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!--/.container-->
-    </section><!--/#conatcat-info-->
-
-    <section id="bottom">
-        <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-            <div class="row" align="center">
-                <div class="col-sm-4 col-xs-4">
-                    <div class="widget">
-                        <h3>Contacto</h3>
-                        <ul>
-                            <br>
-                            <li><a href="tel:+525558564285"><strong>Centro de mando municipal:</strong> 58564285</a></li>
-                            <li><a href="tel:+525558570990"><strong>Bomberos:</strong> 58570990</a></li>
-                            <li><a href="tel:+525558572028"><strong>Protección civil:</strong> 58572028</a></li><br>
-                            <li><a><strong>Correo Institucional Interno:</strong></a></li>
-                            <li><a>contacto@lapazedomex.com.mx</a></li>
-                        </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
-
-                <div class="col-sm-4 col-xs-4">
-                    <div class="widget">
-                        <br><br><br><br>
-                        <img src="images/logolapaz.png">
-                    </div>
-                </div><!--/.col-md-3-->
-
-                <div class="col-sm-4 col-xs-4">
-                    <div class="widget">
-                        <h3>Enlaces externos</h3>
-                        <ul>
-                            <br>
-                            <li><a href="http://www.gob.mx/presidencia">Presidencia de la República</a></li>
-                            <li><a href="http://edomex.gob.mx/">Gobierno del Estado de México</a></li>
-                            <li><a href="http://www.cdmx.gob.mx/">Gobierno de la Ciudad de México</a></li>
-                            <li><a href="http://www.ine.mx/portal/">Instituto Nacional Electoral</a></li>
-                            <li><a href="">&nbsp;</a></li>
-                        </ul>
-                    </div>    
-                </div><!--/.col-md-3-->
-            </div>
-        </div>
-    </section><!--/#bottom-->
-
-    <footer id="footer" class="midnight-blue">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    &copy; 2016 <a target="_blank" href="http://www.lapazedomex.com.mx/index.html/" title="Loa Paz, Estado de México">La Paz</a>, Estado de México.
-                </div>
-                <div class="col-sm-6">
-                    <ul class="pull-right">
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="prensa.html">Sala de Prensa</a></li>
-                        <li><a href="estructura.html">Estructura</a></li>
-                        <li><a href="acciones.html">Acciones y Programas</a></li>
-                        <li><a href="http://www.ipomex.org.mx/ipo/portal/lapaz.web">Treansparencia</a></li>
+            <div class="col-sm-4 col-xs-4">
+                <div class="widget">
+                    <h3>Enlaces externos</h3>
+                    <ul>
+                        <br>
+                        <li><a href="http://www.gob.mx/presidencia">Presidencia de la República</a></li>
+                        <li><a href="http://edomex.gob.mx/">Gobierno del Estado de México</a></li>
+                        <li><a href="http://www.cdmx.gob.mx/">Gobierno de la Ciudad de México</a></li>
+                        <li><a href="http://www.ine.mx/portal/">Instituto Nacional Electoral</a></li>
+                        <li><a href="">&nbsp;</a></li>
                     </ul>
                 </div>
+            </div><!--/.col-md-3-->
+        </div>
+    </div>
+</section><!--/#bottom-->
+
+<footer id="footer" class="midnight-blue">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                &copy; 2016 <a target="_blank" href="http://www.lapazedomex.com.mx/index.html/" title="Loa Paz, Estado de México">La Paz</a>, Estado de México.
+            </div>
+            <div class="col-sm-6">
+                <ul class="pull-right">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="prensa.html">Sala de Prensa</a></li>
+                    <li><a href="estructura.html">Estructura</a></li>
+                    <li><a href="acciones.html">Acciones y Programas</a></li>
+                    <li><a href="http://www.ipomex.org.mx/ipo/portal/lapaz.web">Treansparencia</a></li>
+                </ul>
             </div>
         </div>
-    </footer><!--/#footer-->
+    </div>
+</footer><!--/#footer-->
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/wow.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/jquery.isotope.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/wow.min.js"></script>
 </body>
 </html>
